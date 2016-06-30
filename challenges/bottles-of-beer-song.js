@@ -20,5 +20,13 @@
   - How would you fix "1 bottles of beer"?
 
 */
+function song() {
+ for (var i=5; i=>1; i--)
 
-// YOUR CODE HERE
+    console.log(i + "" + "bottles of beer on the wall")
+    console.log(i + "" + "bottles of beer")
+    console.log("take one down, pass it around")
+    console.log(i-1 + "" + "bottles of beer on the wall")
+    console.log("")
+ }
+ }
