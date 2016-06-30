@@ -20,4 +20,5 @@ function generateInsult(){
 var firstInsult=first_word[Math.floor(Math.random()*items.length)];
 var secondInsult=second_word[Math.floor(Math.random()*items.length)];
 var thirdInsult=third_word[Math.floor(Math.random()*items.length)];
+return ("You" + firstInsult,+secondInsult,+thirdInsult,+ "you!")
 }
