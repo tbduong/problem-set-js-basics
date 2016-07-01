@@ -28,5 +28,6 @@ function bottles () {
  } else {
       bottles = 'bottles'
   }
-console.log(i + '' + 'bottles'+ 'of beer on the wall')
+console.log(i + '' + 'bottles'+ 'of beer on the wall');
+
  }
