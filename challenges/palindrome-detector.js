@@ -21,7 +21,7 @@
 */
 
 // YOUR CODE HERE
-
+//var arrayStrings=
 function isPalindrome(){
   for ( var i=0; i <palindrome.length/2; i++) {
     if (palindrom.charAt(i) === palindrom.charAt(plaindrom.length-1)) {
@@ -32,3 +32,4 @@ function isPalindrome(){
       }
   }
 }
+// function is able to find palindrome... but how would I filter out spaces and punctuations.....?
