@@ -34,8 +34,11 @@
 ////  checkPalindrom('wordthatwillbechecked');
 function isPalindrome(){
   for ( var i=0; i <palindrome.length/2; i++) {
-
+    if (palindrom.charAt(i) === palindrom.charAt(plaindrom.length-1)) {
+      return true("This is a palindrome!");
+    }
+      else {
+        return false("This is NOT a palindrome!");
+      }
   }
-
-
 }
