@@ -20,8 +20,8 @@
   - How would you fix "1 bottles of beer"?
 
 */
-function song() {
- for (var i=5; i=>1; i--)
+function song(n) {
+ for (var i=n; i=>1; i--)
 
  if (i===1) {
     console.log(i + " " + "bottle of beer on the wall")
