@@ -20,20 +20,13 @@
   - How would you fix "1 bottles of beer"?
 
 */
-function song() {
- for (var i=5; i=>1; i--)
+function bottles () {
+  for (var i=5; i => 1; i--)
 
  if (i===1) {
-    console.log(i+1 + "" + "bottles of beer on the wall")
-    console.log(i+1 + "" + "bottles of beer")
-    console.log("take one down, pass it around")
-    console.log("No bottles of beer on the wall" )
- }
- else {
-    console.log(i + "" + "bottles of beer on the wall")
-    console.log(i + "" + "bottles of beer")
-    console.log("take one down, pass it around")
-    console.log(i-1 + "" + "bottles of beer on the wall")
-    console.log("")
+   bottles = 'bottle'
+ } else {
+      bottles = 'bottles'
   }
+console.log(i + '' + 'bottles'+ 'of beer on the wall')
  }
