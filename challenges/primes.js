@@ -16,4 +16,13 @@ function isPrime(value) {
         }
     }
     return true;
-}
+
+
+function primes(max) {
+    var primesList = [];
+    for (var i = 0; i <= max; i++) {
+    if (isPrime(i)) {
+
+      primesList.push(i)         }
+                } 
+  return primesList; }
